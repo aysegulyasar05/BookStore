@@ -249,20 +249,26 @@ margin-right: 5px;
 }
 
 .basket-list{
+    text-align:left;
     list-style-type: none;
-    padding: 0 5px;
+    ;
 
+}
+
+.basket-list img{
+    width: 60px;
+    height: 80px;
 }
 
 .basket-list li{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
     gap:5px;
-    font-size: 15px;
+    font-size:10px;
 }
 .basket-item-info{
-    width: 150px;
+    width: 250px;
 }
 
 .basket-item-info .book-remove{
@@ -272,8 +278,9 @@ margin-right: 5px;
 .basket-item .book-count {
     font-size:15px;
     color: var(--black);
-    font-weight: bold;
+    font-weight: bolder;
     cursor: pointer;
+    width: 50px;
    
   
 }
